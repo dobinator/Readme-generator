@@ -3,7 +3,7 @@
 
 ## Description:
 
-# License: 
+## License: 
 
 ## Installation:
 
@@ -13,10 +13,11 @@
 
 ## contribute?
 
-contacts 
+## tests
+
 name:
 
 email:
 
-user name on Github:
+userName on Github:
 

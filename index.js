@@ -1,14 +1,8 @@
-// TODO: Include packages needed for this application
+
 const inquirer = require ("inquirer")
-// TODO: Create an array of questions for user input
-const questions = [];
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-const inquirer = require("inquire"); 
 
-cont questions =[
-    {
+const questions = [ {
     type: "input",
     name: "Title",
     message: "What is the title of your project?"
@@ -35,11 +29,6 @@ cont questions =[
     },
     {
     type: "input",
-    name: "RepoName",
-    message: "What is your Github repository name?"
-    },
-    {
-    type: "input",
     name: "emailAddress",
     message:"What is your email address?"  
     },
@@ -47,8 +36,22 @@ cont questions =[
     type: "input",
     name: "contribute",
     message:"How can one contribute to the application?" 
-    },
-]
+    }
+    {
+    type: "input",
+    name:"test",
+    message: "Has this application been tested?"
+
+    }];
+
+// TODO: Create a function to write README file
+function writeToFile(fileName, data) {
+
+
+    
+}
+
+
 
 
 
