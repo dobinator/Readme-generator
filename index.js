@@ -34,7 +34,7 @@ const questions = [
     },
     {
     type: "input",
-    name: "Name",
+    name: "name",
     message: "What is your First and Last name?"    
     },
     {
@@ -54,22 +54,30 @@ const questions = [
     }, 
     ];
 
+
+
+     //prompt(questions)
+    // .then((burrito)=> {
+    // const fileName = `${burrito.name}.json`
+    //  fs.writeFile(fileName, JSON.stringify(burrito), (err)=> err ? console.log
+    //  (err): console.log ("whooho")
+    // )}); 
+
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-
-    
-}
-
-
-
-
-
-
-
+return fs.writeFile(fileName,data, (err) => err ? console.log
+(err):  console.log ("File created"))    
+}; 
 
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() { 
+ inquirer.prompt(questions)
+ .then(data => {
+ writeToFile ("Readme.md", generateMarkdown(data))
+
+ })
+}
 
 // Function call to initialize app
 init();
