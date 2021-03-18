@@ -42,15 +42,16 @@ function generateMarkdown(data) {
 # Title
  ${data.title}
 
-## Table of Contents
-[* Description]
-[* Dependency]
-[* Testing]
-[* Questions]
-[* Contribute]
+ ##Description
+ ${data.description} 
 
-##Description
-${data.description} 
+
+ ## Table of Contents
+
+--[* Dependency]
+--[* Testing]
+--[* Contribute]
+--[* Questions]
 
 ##Dependency
 ${data.dependency} 
@@ -58,13 +59,13 @@ ${data.dependency}
 ##Testing
 ${data.test}
 
+##Contribute
+${data.contribute} 
+
 ##Questions
- ${data.name}
  ${data.userName} 
 ${data.emailAddress} 
 
-##Contribute
-${data.contribute} 
 `
 
 }

@@ -34,11 +34,6 @@ const questions = [
     },
     {
     type: "input",
-    name: "name",
-    message: "What is your First and Last name?"    
-    },
-    {
-    type: "input",
     name: "userName",
     message: "What is your Github user name?"
     },
@@ -54,14 +49,6 @@ const questions = [
     }, 
     ];
 
-
-
-     //prompt(questions)
-    // .then((burrito)=> {
-    // const fileName = `${burrito.name}.json`
-    //  fs.writeFile(fileName, JSON.stringify(burrito), (err)=> err ? console.log
-    //  (err): console.log ("whooho")
-    // )}); 
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
