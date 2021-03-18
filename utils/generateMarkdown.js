@@ -44,6 +44,11 @@ ${renderLicenseBadge(data.license)}
  ${data.title}
 
 ## Table of Contents
+[*Description]
+[*Dependency]
+[*Testing]
+[*Questions]
+[*Contribute]
 
 ##Description
 ${data.description} 
@@ -54,7 +59,7 @@ ${data.dependency}
 ##Testing
 ${data.test}
 
-##Contact
+##Questions
  ${data.name}
  ${data.userName} 
 ${data.emailAddress} 

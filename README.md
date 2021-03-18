@@ -1,21 +1,29 @@
-# ffahaf
+# readme
 
 
 # Title
- ffahaf
+ readme
 
 ## Table of Contents
+[*Description]
+[*Dependency]
+[*Testing]
+[*Questions]
+[*Contribute]
 
 ##Description
-dfgd 
+an application that makes your life easier 
 
 ##Dependency
-dfgf 
+none 
+
 ##Testing
-dfghfe
+no
+
 ##Questions
- xfsf
- srgef 
-fbfds 
+ Emily Dobson
+ Dobinator 
+dobsonemily@gmail.com 
+
 ##Contribute
-cfbg 
+contact me via email 
