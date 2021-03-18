@@ -3,9 +3,9 @@
 
 ## Description:
 
-## License: 
-
 ## Installation:
+
+## License: 
 
 ## Usage:
 

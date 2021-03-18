@@ -1,26 +1,40 @@
 
 const inquirer = require ("inquirer")
+const fs = require(fs)
 
 
-const questions = [ {
+const questions = [ 
+    {
+    type: "list",
+    name: "licenses",
+    message: "What license(s) would you like to add?", 
+    choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"]
+    },
+    {
     type: "input",
-    name: "Title",
+    name: "title",
     message: "What is the title of your project?"
     },
+    
     {
     type: "input",
-    name: "instructions",
-    message: "What are your project installation instructions?"
+    name: "description",
+    message: "Please give a brief description of the application?"
     },
     {
     type: "input",
-    name: "license",
-    message: "What type of license does your project have?"
+    name: "dependency",
+    message: "What are your dependencies, seperated by commas?"
     },
     {
     type: "input",
-    name: "dependencies",
-    message: "What are your dependencies seperated by commas?"
+    name:"test",
+    message: "Has this application been tested?"
+    },
+    {
+    type: "input",
+    name: "Name",
+    message: "What is your First and Last name?"    
     },
     {
     type: "input",
@@ -36,13 +50,8 @@ const questions = [ {
     type: "input",
     name: "contribute",
     message:"How can one contribute to the application?" 
-    }
-    {
-    type: "input",
-    name:"test",
-    message: "Has this application been tested?"
-
-    }];
+    }, 
+    ];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
