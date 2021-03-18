@@ -1,13 +1,9 @@
-# Project Title:
-
-
-# License: 
+# Project/ Title:
 
 
 ## Description:
 
-
-
+# License: 
 
 ## Installation:
 
@@ -15,6 +11,9 @@
 
 ## Credits:
 
+## contribute?
+
+contacts 
 name:
 
 email:
