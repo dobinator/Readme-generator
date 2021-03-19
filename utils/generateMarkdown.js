@@ -50,16 +50,18 @@ function generateMarkdown(data) {
 
  ## Table of Contents
 
---[* Dependency]
+
+--[* Installation]
 ${renderLicenseLink(data.license)}
+
 --[* Testing]
 
 --[* Contribute]
 
 --[* Questions]
 
-##Dependency
-${data.dependency} 
+##Installation
+${data.installation}
 
 ##Testing
 ${data.test}
@@ -68,8 +70,8 @@ ${data.test}
 ${data.contribute} 
 
 ##Questions
- ${data.userName} 
-${data.emailAddress} 
+ If you have any questions about the application contact me through my Github ${data.userName}or through my
+email ${data.emailAddress}. 
 
 `
 

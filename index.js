@@ -22,11 +22,13 @@ const questions = [
     name: "description",
     message: "Please give a brief description of the application?"
     },
+
     {
     type: "input",
-    name: "dependency",
-    message: "What are your dependencies, seperated by commas?"
+    name: "installation",
+    message: "What is required to be installed for the application to run smoothly, seperated by commas?",
     },
+    
     {
     type: "input",
     name:"test",
