@@ -28,7 +28,13 @@ const questions = [
     name: "installation",
     message: "What is required to be installed for the application to run smoothly, seperated by commas?",
     },
-    
+    {
+    type: "input",
+    name: "usage",
+    message: "Please enter usage instructions for your project."
+
+
+    },
     {
     type: "input",
     name:"test",
