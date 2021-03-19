@@ -7,7 +7,7 @@ const generateMarkdown = require("./utils/generateMarkdown.js");
 const questions = [ 
     {
     type: "list",
-    name: "licenses",
+    name: "license",
     message: "What license(s) would you like to add?", 
     choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"]
     },
