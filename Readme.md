@@ -1,42 +1,40 @@
 # Readme generator
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg"></img>
 
-# Title
- Readme generator
 
- ##Description
- This application was created to assist with the creation of a dynamically generated progrssional README.md 
+ ## Description
+ this application assists the professional with writing a concise readme for Github 
 
 
  ## Table of Contents
 
 
---[* Installation]
+*[Installation](#installion)
 
 * [License](#license)
 
 
---[*Usage]
+*[Usage](#usage)
 
---[* Testing]
+*[Testing](#testing)
 
---[* Contribute]
+*[Contribute](#contribute)
 
---[* Questions]
+*[Questions](#questions)
 
-##Installation
-node
+## Installation
+npm
 
-##Usage
-download the applications in order to work 
+## Usage
+make sure you download Node before running application
 
-##Testing
+## Testing
 no
 
-##Contribute
+## Contribute
 email me 
 
-##Questions
+## Questions
  If you have any questions about the application contact me through my Github Dobinatoror through my
 email dobsonemily@gmail.com. 
 

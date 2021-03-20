@@ -44,38 +44,38 @@ function generateMarkdown(data) {
 # Title
  ${data.title}
 
- ##Description
+ ## Description
  ${data.description} 
 
 
  ## Table of Contents
 
 
- >--[Installation](#installion)
+*[Installation](#installion)
 ${renderLicenseLink(data.license)}
 
- >--[Usage](#usage)
+*[Usage](#usage)
 
- >--[Testing](#testing)
+*[Testing](#testing)
 
- >--[Contribute](#contribute)
+*[Contribute](#contribute)
 
- >--[Questions](#questions)
+*[Questions](#questions)
 
-##Installation
+## Installation
 ${data.installation}
 
-##Usage
+## Usage
 ${data.usage}
 
-##Testing
+## Testing
 ${data.test}
 
-##Contribute
+## Contribute
 ${data.contribute} 
 
-##Questions
- If you have any questions about the application contact me through my Github ${data.userName}or through my
+## Questions
+ If you have any questions about the application contact me through my Github ${data.userName} or through my
 email ${data.emailAddress}. 
 
 `

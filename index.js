@@ -31,7 +31,7 @@ const questions = [
     {
     type: "input",
     name: "usage",
-    message: "Please enter usage instructions for your project."
+    message: "Please enter any usage instructions for your project."
 
 
     },
