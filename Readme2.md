@@ -7,10 +7,10 @@
 
 ## Table of Contents
 
-*Installation
-*Testing
-*Contribute
-*Questions
+* Installation
+* Testing
+* Contribute
+* Questions
 
 
 ## Installation
@@ -24,7 +24,12 @@
 ## Questions
    If you have any questions, my github user name is Dobinator and my email is dobsonemily@gmail.com
 
+
  Video presentation of the application.
+
+ https://youtu.be/PNDij0bQMeM
+
+ ![Readme Generator](./assets/screenshot.png)
 
 
   
