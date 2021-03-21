@@ -69,7 +69,7 @@ return fs.writeFile(fileName,data, (err) => err ? console.log
 function init() { 
  inquirer.prompt(questions)
  .then(data => {
- writeToFile ("Readme.md", generateMarkdown(data))
+ writeToFile ("README.md", generateMarkdown(data))
 
  })
 }
